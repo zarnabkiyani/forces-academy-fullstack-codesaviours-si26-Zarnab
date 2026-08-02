@@ -1,0 +1,12 @@
+# Do not push local database credentials
+config/db.php
+
+# Uploaded assignment submissions — keep the folder, not its contents
+uploads/*
+!uploads/.gitkeep
+!uploads/.htaccess
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
