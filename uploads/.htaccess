@@ -1,0 +1,5 @@
+# Security: never execute PHP from inside the uploads folder,
+# even if a malicious file somehow got an allowed extension.
+<FilesMatch "\.(php|phtml|php\d?)$">
+    Require all denied
+</FilesMatch>
